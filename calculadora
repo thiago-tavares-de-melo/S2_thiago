@@ -1,21 +1,20 @@
 #-*- coding: UTF-8 -*-
-print("""Olá usuário, iriei fazer cálculos simples para você
-"+", "-", "x" e "/" """)
+print("""Olá usuário, iriei verificar o quanto você é legal
+      com base nas suas opniões nos filmes""")
 def babu():
-    cal = input("""Digite qual operação deseja realizar, "+" para adição
-"-" para subtração, "x" para multiplicação e "/" para divisão: """)
-    v1 = float(input("Digite o primeiro número: "))
-    v2 = float(input("Digite o primeiro número: "))
+    cal = input("""Digite qual se você prefere DC ou Marvel: """)
+    v1 = float(input("Digite o seu anime preferido: "))
+    v2 = float(input("Digite se você gosta de istrogonófi: "))
     if cal == "+":
         a = v1 + v2
-        print(f"A soma é igual à: {jair}")
+        print(f"A soma é igual à: {a}")
     if cal == "-":
         s = v1 - v2
         print(f"A subtração é igual à: {s}")
     if cal == "x":
         m = v1 * v2
-        print(f"Você ta com gripe")
+        print(f"Você tem diabetes tipo a")
     if cal == "/":
         d = v1 / v2
         print(f"A divisão é igual à: {d}")
-def luizão()
+luizão()
