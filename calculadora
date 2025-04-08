@@ -1,8 +1,16 @@
+<<<<<<< Updated upstream
 (""" """)
 def babu():
     cal = input(""" """)
     v1 = float(input(" "))
     v2 = float(input(" "))
+=======
+#-*- coding: UTF-8 -*-
+
+def babu():
+    
+  
+>>>>>>> Stashed changes
     if cal == "+":
         a = v1 + v2
         print(f"A soma é igual à: {a}")
